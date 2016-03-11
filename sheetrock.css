@@ -1,0 +1,191 @@
+.intro {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+			margin-bottom:0px;
+
+}
+
+.intro h1 {
+
+	text-align:center;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	margin-bottom:0px;
+
+}
+
+.intro h2 {
+float:left;
+font-weight:bold;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+margin-bottom:0px;
+margin-top:0px;
+font-size:20px;
+margin-left:5px;
+}
+
+.intro h3 {
+float:right;
+font-weight:bold;
+font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+margin-bottom:0px;
+margin-top:0px;
+font-size:20px;
+margin-right:5px;
+
+}
+
+.intro p {
+
+		font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+		margin-top:0px;
+		margin-bottom:0px;
+		text-align:center;
+}
+
+.intro hr {
+color:black;
+height:2px;
+background-color:black;
+padding:0px;
+margin:5px;
+}
+
+.bodycopy {
+
+		width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.bodycopy{
+margin-top:0px;
+margin-bottom:0px;
+font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+}
+
+
+.bodycopy p {
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height: 95%;
+	margin-left:5px;
+}
+
+.bodycopy p2 {
+text-align:right;
+	float:right;
+		margin-top:0px;
+	margin-bottom:0px;
+	line-height: 90%;
+	margin-right:5px;
+font-size:14px;
+}
+
+
+.bodycopy p3 {
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height: 5%;
+	margin-left:5px;
+}
+
+.bodycopy p4 {
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height: 5%;
+	margin-right:5px;
+	float:right;
+}
+
+
+
+
+.bodycopy h2 {
+
+	float:left;
+font-weight:bold;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+margin-bottom:0px;
+margin-top:0px;
+font-size:20px;
+margin-left:5px;
+
+}
+
+
+.bodycopy h3 {
+text-align:right;
+	float:right;
+		margin-top:0px;
+	margin-bottom:-20px;
+	line-height: 50%;
+	margin-right:5px;
+	font-size:14px;
+
+}
+
+
+.bodycopy h4 {
+
+
+	float:left;
+	font-weight:900;
+
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+margin-bottom:0px;
+margin-top:0px;
+font-size:16px;
+margin-left:5px;
+line-height:50%;
+
+}
+
+
+.bodycopy h5 {
+text-align:right;
+	float:right;
+		margin-top:5px;
+		padding-bottom:5px;
+	margin-bottom: 0px;
+	line-height: 20%;
+	margin-right:5px;
+	font-size:14px;
+
+}
+
+
+.bodycopy h6 {
+
+
+	float:left;
+	font-weight:900;
+
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+margin-bottom:0px;
+margin-top:5px;
+font-size:16px;
+margin-left:5px;
+line-height:20%;
+
+}
+
+
+.bodycopy hr {
+color:black;
+height:2px;
+background-color:black;
+padding:0px;
+margin:5px;
+}
+
+.bodycopy ul{
+	margin-top:8px;
+}
+.bodycopy li {
+	line-height:90%;
+
+}
