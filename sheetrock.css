@@ -1,4 +1,35 @@
-.intro {
+
+nav ul {
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	margin-top:0;
+	padding-top:4px;
+	padding-bottom:4px;
+
+}
+nav ul li {
+	list-style-type:none;
+	display:inline-block;	
+	padding-left:9%;
+	padding-right:9%;
+	text-align:center;
+	color:white;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+}
+
+nav a {
+	color:white;
+}
+
+nav a:hover {
+	font-weight:bold;
+	color:gray;
+}
+
+
+header {
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
@@ -6,15 +37,16 @@
 
 }
 
-.intro h1 {
+header h1 {
 
 	text-align:center;
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 	margin-bottom:0px;
+	font-weight:normal;
 
 }
 
-.intro h2 {
+header h2 {
 float:left;
 font-weight:bold;
 	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
@@ -24,7 +56,7 @@ font-size:20px;
 margin-left:5px;
 }
 
-.intro h3 {
+header h3 {
 float:right;
 font-weight:bold;
 font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
@@ -35,7 +67,7 @@ margin-right:5px;
 
 }
 
-.intro p {
+header p {
 
 		font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 		margin-top:0px;
@@ -43,7 +75,7 @@ margin-right:5px;
 		text-align:center;
 }
 
-.intro hr {
+header hr {
 color:black;
 height:2px;
 background-color:black;
@@ -51,15 +83,22 @@ padding:0px;
 margin:5px;
 }
 
-.bodycopy {
+section  {
 
 		width:800px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
+section hr {
+color:black;
+height:2px;
+background-color:black;
+padding:0px;
+margin:5px;
+}
 
-.bodycopy{
+section{
 margin-top:0px;
 margin-bottom:0px;
 font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
@@ -67,14 +106,14 @@ font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewrite
 }
 
 
-.bodycopy p {
+section p {
 	margin-top:0px;
 	margin-bottom:0px;
 	line-height: 95%;
 	margin-left:5px;
 }
 
-.bodycopy p2 {
+section p2 {
 text-align:right;
 	float:right;
 		margin-top:0px;
@@ -85,7 +124,7 @@ font-size:14px;
 }
 
 
-.bodycopy p3 {
+section p3 {
 	float:left;
 	margin-top:0px;
 	margin-bottom:0px;
@@ -93,7 +132,7 @@ font-size:14px;
 	margin-left:5px;
 }
 
-.bodycopy p4 {
+section p4 {
 	margin-top:0px;
 	margin-bottom:0px;
 	line-height: 5%;
@@ -104,7 +143,7 @@ font-size:14px;
 
 
 
-.bodycopy h2 {
+section h2 {
 
 	float:left;
 font-weight:bold;
@@ -117,7 +156,7 @@ margin-left:5px;
 }
 
 
-.bodycopy h3 {
+section h3 {
 text-align:right;
 	float:right;
 		margin-top:0px;
@@ -129,7 +168,7 @@ text-align:right;
 }
 
 
-.bodycopy h4 {
+section h4 {
 
 
 	float:left;
@@ -145,7 +184,7 @@ line-height:50%;
 }
 
 
-.bodycopy h5 {
+section h5 {
 text-align:right;
 	float:right;
 		margin-top:5px;
@@ -158,7 +197,7 @@ text-align:right;
 }
 
 
-.bodycopy h6 {
+section h6 {
 
 
 	float:left;
@@ -174,18 +213,11 @@ line-height:20%;
 }
 
 
-.bodycopy hr {
-color:black;
-height:2px;
-background-color:black;
-padding:0px;
-margin:5px;
-}
 
-.bodycopy ul{
+section ul{
 	margin-top:8px;
 }
-.bodycopy li {
+section li {
 	line-height:90%;
 
 }
